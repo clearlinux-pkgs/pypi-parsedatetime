@@ -4,7 +4,7 @@
 #
 Name     : pypi-parsedatetime
 Version  : 2.6
-Release  : 42
+Release  : 43
 URL      : https://files.pythonhosted.org/packages/a8/20/cb587f6672dbe585d101f590c3871d16e7aec5a576a1694997a3777312ac/parsedatetime-2.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a8/20/cb587f6672dbe585d101f590c3871d16e7aec5a576a1694997a3777312ac/parsedatetime-2.6.tar.gz
 Summary  : Parse human-readable date/time text.
@@ -14,11 +14,7 @@ Requires: pypi-parsedatetime-license = %{version}-%{release}
 Requires: pypi-parsedatetime-python = %{version}-%{release}
 Requires: pypi-parsedatetime-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: parsedatetime
-Provides: parsedatetime-python
-Provides: parsedatetime-python3
 BuildRequires : pypi(pytest)
-BuildRequires : python-future
 
 %description
 =============
@@ -65,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641465691
+export SOURCE_DATE_EPOCH=1649776854
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
